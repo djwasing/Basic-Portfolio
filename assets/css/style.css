@@ -1,7 +1,7 @@
 body {
     background: url("../images/polaroid.png");
-    height: 960px;
-    width: 960px;
+    max-height: 960px;
+    max-width: 960px;
     margin-left: 10%;
     margin-right: 10%;
     height: 100%;
