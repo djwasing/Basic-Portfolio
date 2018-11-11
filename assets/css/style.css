@@ -1,0 +1,36 @@
+body {
+    background: url("../images/leaves.png");
+    max-height: 960px;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 100%;
+}
+
+#nav-bar {
+    position: fixed;
+    top: 0;
+    background-color: white;
+    width: 100%;
+    margin-left: 0;
+}
+
+h1 {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 20px;
+    width: 150px;
+}
+
+p {
+    clear: both;
+    margin-top: 80px;
+}
+
+footer {
+    background-color: slategray;
+    color: white;
+    text-align: center;
+    height: 60px;
+    line-height: 60px;
+}
+
