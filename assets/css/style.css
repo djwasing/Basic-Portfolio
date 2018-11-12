@@ -4,8 +4,6 @@ body {
     max-width: 100%;
     margin-left: 10%;
     margin-right: 10%;
-    height: 100%;
-    width: 100%;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
@@ -17,23 +15,29 @@ body {
     background-color: darkblue;
     width: 100%;
     float: left;
+    opacity: .95;
 }
  #button {
-    padding: 38px 25px 5px 15px;
+    padding: 20px 25px 5px 15px;
     color: white;
     float: right;
+}
+.buttons {
+    margin-right: 11%;
 }
 
 h1 {
     background-color: darkred;
     color: white;
-    text-decoration: underline;
-    padding: 20px;
+    padding: 15px;
     margin-left: 10%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 60px;
     width: 220px;
     float: left;
     font-size: 30px;
-    border: solid 5px gold;
+    line-height: 90px;
 }
 
 h2 {
@@ -72,4 +76,90 @@ footer {
     bottom: 0;
     width: 960px;
 }
+
+/* Specific to Portfolio Page below*/
+
+#button1 {
+    color: white;
+    border: none;
+    width: 206px;
+    height: 25px;
+    font-size: 16px;
+    z-index: 2;
+    background-color: darkblue; 
+}
+.container1 {
+    position: relative;
+    float: left;
+}
+.container1 #button1 {
+    position: absolute;
+    cursor: pointer;
+}
+#tracker_img {
+    box-shadow: 10px 10px 5px lightgrey;
+    border: 3px solid darkslategrey;
+}
+#button1:hover {
+    background-color: darkred;
+}
+
+/* button 2 area */
+
+#button2 {
+    color: white;
+    border: none;
+    width: 206px;
+    height: 25px;
+    font-size: 16px;
+    z-index: 2;
+    background-color: darkblue;
+    margin-left: 25px;
+}
+.container2 {
+    position: relative;
+    float: left;
+}
+.container2 #button2 {
+    position: absolute;
+    cursor: pointer;
+}
+#police_img {
+    box-shadow: 10px 10px 5px lightgrey;
+    border: 3px solid darkslategrey;
+    margin-left: 25px;
+}
+#button2:hover {
+    background-color: darkred;
+}
+
+/* button 3 area */
+
+#button3 {
+    color: white;
+    border: none;
+    width: 206px;
+    height: 25px;
+    font-size: 16px;
+    z-index: 2;
+    background-color: darkblue;
+    margin-left: 25px;
+}
+.container3 {
+    position: relative;
+    float: left;
+}
+.container3 #button3 {
+    position: absolute;
+    cursor: pointer;
+}
+#ticket_img {
+    box-shadow: 10px 10px 5px lightgrey;
+    border: 3px solid darkslategrey;
+    margin-left: 25px;
+}
+#button3:hover {
+    background-color: darkred;
+}
+
 
