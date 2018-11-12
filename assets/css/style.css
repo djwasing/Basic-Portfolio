@@ -13,12 +13,12 @@ body {
     max-width: 960px;
     position: fixed;
     top: 0;
-    background-color: darkred;
+    background-color: darkblue;
     width: 100%;
     float: left;
 }
  #button {
-    padding: 30px 20px 5px 15px;
+    padding: 38px 20px 5px 15px;
     color: white;
     float: right;
  }
@@ -31,10 +31,12 @@ h1 {
     width: 220px;
     float: left;
     font-size: 30px;
+    border: solid 5px gold;
+    border-left: none;
 }
 
 h2 {
-    color: darkred;
+    color: darkblue;
     font-size: 26px;
     padding-top: 25px;
     border-bottom: 5px solid darkred;
@@ -50,12 +52,12 @@ h2 {
     box-shadow: 10px 10px 5px lightgrey;
     float: left;
     margin-right: 25px;
-    margin-top: -30px;
 }
 
 .about_me {
     width: 100%;
-    padding-top: 30px;
+    padding-top: 5px;
+    margin-bottom: 30px;
 }
 
 footer {
