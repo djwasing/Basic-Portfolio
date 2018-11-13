@@ -37,7 +37,7 @@ h1 {
     margin-left: 10%;
     margin-top: 0px;
     margin-bottom: 0px;
-    height: 60px;
+    height: 62px;
     width: 220px;
     float: left;
     font-size: 30px;
@@ -51,7 +51,8 @@ h2 {
     padding-top: 25px;
     border-bottom: 5px solid #000080;
     padding-bottom: 10px;
-    width: 960px;
+    width: 100%;
+    max-width: 960px;
     margin-right: 10%;
     font-style: italic;
 }
@@ -173,5 +174,33 @@ footer {
 
 /* Connect Page Style below here */
 
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
 
+input[type=submit] {
+    background-color: #000080;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #800000;
+}
+
+.container4 {
+    border-radius: 5px;
+    padding: 20px;
+    max-width: 960px;
+}
 
