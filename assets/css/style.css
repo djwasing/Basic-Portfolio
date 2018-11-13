@@ -1,5 +1,5 @@
 body {
-    background: url("../images/polaroid.png");
+    background: url("../images/concrete.png");
     max-height: 100%;
     max-width: 100%;
     margin-left: 10%;
@@ -12,7 +12,7 @@ body {
     position: fixed;
     left: 0;
     top: 0;
-    background-color: darkblue;
+    background-color: #800000;
     width: 100%;
     float: left;
     opacity: .95;
@@ -27,7 +27,7 @@ body {
 }
 
 h1 {
-    background-color: darkred;
+    background-color: #000080;
     color: white;
     padding: 15px;
     margin-left: 10%;
@@ -41,10 +41,10 @@ h1 {
 }
 
 h2 {
-    color: darkblue;
+    color: #000080;
     font-size: 26px;
     padding-top: 25px;
-    border-bottom: 5px solid darkred;
+    border-bottom: 5px solid #000080;
     padding-bottom: 10px;
     width: 960px;
     font-style: italic;
@@ -66,15 +66,18 @@ h2 {
 }
 
 footer {
-    background-color: darkred;
+    background-color: #800000;
     color: white;
     text-align: center;
     height: 20px;
     line-height: 20px;
     flex-shrink: 0;
+    font-size: 8px;
     position: fixed;
     bottom: 0;
-    width: 960px;
+    width: 100%;
+    left: 0;
+    opacity: .95;
 }
 
 /* Specific to Portfolio Page below*/
@@ -101,7 +104,7 @@ footer {
     border: 3px solid darkslategrey;
 }
 #button1:hover {
-    background-color: darkred;
+    background-color: #800000;
 }
 
 /* button 2 area */
@@ -130,7 +133,7 @@ footer {
     margin-left: 25px;
 }
 #button2:hover {
-    background-color: darkred;
+    background-color: #800000;
 }
 
 /* button 3 area */
@@ -159,7 +162,7 @@ footer {
     margin-left: 25px;
 }
 #button3:hover {
-    background-color: darkred;
+    background-color: #800000;
 }
 
 
