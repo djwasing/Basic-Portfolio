@@ -30,6 +30,17 @@ body {
     position: relative;
 }
 
+.portfolio_link {
+    border-right: white 3px solid;
+    border-left: white 3px solid;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.about_link {
+    padding-right: 15px;
+}
+
 h1 {
     background-color: #000080;
     color: white;
