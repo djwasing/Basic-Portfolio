@@ -14,6 +14,7 @@ body {
     background-color: #800000;
     width: 100%;
     opacity: .95;
+    z-index: 3;
 }
 
 #links {
