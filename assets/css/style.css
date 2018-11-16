@@ -1,10 +1,14 @@
 body {
     background: url("../images/concrete.png");
     max-height: 100%;
-    max-width: 100%;
+    max-width: 960px;
     margin-left: 10%;
-    margin-right: 10%;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.content2 {
+    width: 960px;
+    display: flex;
+    justify-content: space-between;
 }
 
 #nav-bar {
@@ -14,21 +18,19 @@ body {
     background-color: #800000;
     width: 100%;
     opacity: .95;
-    z-index: 3;
+    z-index: 3; 
 }
 
 #links {
-    float: right;
     font-size: 16px;
     background-color: #800000;
-    margin-right: 10%;
+    
 }
 
 #link {
     color: white;
     padding-left: 15px;
     line-height: 60px;
-    position: relative;
 }
 
 .portfolio_link {
@@ -46,7 +48,7 @@ h1 {
     background-color: #000080;
     color: white;
     padding: 15px;
-    margin-left: 10%;
+    margin-left: 9%;
     margin-top: 0px;
     margin-bottom: 0px;
     height: 62px;
@@ -64,9 +66,9 @@ h2 {
     border-bottom: 5px solid #000080;
     padding-bottom: 10px;
     width: 100%;
-    max-width: 960px;
-    margin-right: 10%;
+    width: 960px;
     font-style: italic;
+    position: relative;
 }
 
 #photo {
@@ -80,8 +82,9 @@ h2 {
 
 .about_me {
     width: 960px;
-    padding-top: 5px;
     margin-bottom: 30px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 footer {
@@ -97,6 +100,10 @@ footer {
     width: 100%;
     left: 0;
     opacity: .95;
+}
+
+.content {
+    max-width: 960px;
 }
 
 /* Specific to Portfolio Page below*/
@@ -197,7 +204,7 @@ input[type=text], select, textarea {
     resize: vertical;
 }
 
-input[type=submit] {
+#submit {
     background-color: #000080;
     color: white;
     padding: 12px 20px;
@@ -206,7 +213,7 @@ input[type=submit] {
     cursor: pointer;
 }
 
-input[type=submit]:hover {
+#submit:hover {
     background-color: #800000;
 }
 

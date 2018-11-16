@@ -1,5 +1,6 @@
 <!DOCTYPE <!DOCTYPE html>
 <html>
+
 <head>
     <title>Contact</title>
     <link rel="stylesheet" href="assets/css/style.css" />
@@ -12,12 +13,12 @@
             Don Wasinger
         </h1>
 
-        <p id="links">  
-            <a class="about_link" href="index.html" id="link">About</a> 
+        <p id="links">
+            <a class="about_link" href="index.html" id="link">About</a>
             <a class="portfolio_link" href="portfolio.html" id="link">Portfolio</a>
-            <a href="contact.html" id="link">Connect</a> 
+            <a href="contact.html" id="link">Connect</a>
         </p>
-     </nav>
+    </nav>
     <br>
     <br>
     <br>
@@ -28,7 +29,7 @@
     </div>
 
     <div class="container4">
-        <form action="action_page.php" action="mailto:dwasinger90@gmail.com" method="post" enctype="text/plain">
+        <form>
 
             <label for="fname">First Name</label>
             <input type="text" id="fname" name="firstname" placeholder="Your name..">
@@ -42,15 +43,16 @@
             <label for="message">Say Something</label>
             <textarea id="say_something" name="say_something" placeholder="Say something.."></textarea>
 
-            <input type="submit" value="Submit">
-            
         </form>
+        <a id="submit">Submit</a>
     </div>
-
 
     <footer>
         Copyright
     </footer>
-    
+
+    <script src="./assets/js/mail.js"></script>
+
 </body>
+
 </html>
