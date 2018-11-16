@@ -1,14 +1,11 @@
 body {
     background: url("../images/concrete.png");
     max-height: 100%;
-    max-width: 960px;
-    margin-left: 10%;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .content2 {
-    width: 960px;
-    display: flex;
-    justify-content: space-between;
+    max-width: 960px;
+    margin: 0 auto;
 }
 
 #nav-bar {
@@ -24,7 +21,7 @@ body {
 #links {
     font-size: 16px;
     background-color: #800000;
-    
+    float: right;
 }
 
 #link {
@@ -48,7 +45,7 @@ h1 {
     background-color: #000080;
     color: white;
     padding: 15px;
-    margin-left: 9%;
+    /* margin-left: 9%; */
     margin-top: 0px;
     margin-bottom: 0px;
     height: 62px;
@@ -104,6 +101,12 @@ footer {
 
 .content {
     max-width: 960px;
+    margin: 0 auto;
+}
+
+.content3 {
+    max-width: 960px;
+    margin: 0 auto;
 }
 
 /* Specific to Portfolio Page below*/
@@ -221,5 +224,6 @@ input[type=text], select, textarea {
     border-radius: 5px;
     padding: 20px;
     max-width: 960px;
+    margin: 0 auto;
 }
 
